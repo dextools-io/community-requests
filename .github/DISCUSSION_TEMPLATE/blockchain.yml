@@ -1,0 +1,109 @@
+title: "Blockchain"
+labels: ["blockchain request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Blockchain relevant info
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Blockchain name
+    validations:
+      required: true
+  - type: input
+    id: tvl
+    attributes:
+      label: TVL
+      description: Blockchain Total Value Locked
+    validations:
+      required: true
+  - type: input
+    id: web
+    attributes:
+      label: Website
+      description: Blockchain website url
+    validations:
+      required: true
+  - type: input
+    id: blockchain-id
+    attributes:
+      label: Id
+      description: id number in evm case / slug in no evm case
+    validations:
+      required: true
+  - type: input
+    id: token
+    attributes:
+      label: Token
+      description: Native token Name/Symbol
+    validations:
+      required: true
+  - type: input
+    id: block-explorer
+    attributes:
+      label: Block Explorer
+      description: "Block explorer url"
+    validations:
+      required: true
+  - type: input
+    id: exchange
+    attributes:
+      label: Main exchange
+      description: Main exchange info (url/name)
+    validations:
+      required: true
+  - type: dropdown
+    id: evm
+    attributes:
+      label: is EVM?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Other info
+  - type: textarea
+    id: relevant-exchanges
+    attributes:
+      label: Blockchain other relevant exchanges
+      description: "A clear list of relevant exchanges with link and concise description of them."
+      value: |
+        ...
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: relevant-info
+    attributes:
+      label: Blockchain other relevant info
+      description: "A clear and concise description of blockchain (if it's needed)."
+      value: |
+        ...
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: relevant-link
+    attributes:
+      label: Blockchain other relevant links
+      description: "A clear list of relevant links and concise description of them."
+      value: |
+        ...
+      render: bash
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Blockchain other relevant info
+      description: "Add any other context or info about the blockchain request here."
+      value: |
+        ...
+      render: bash
+    validations:
+      required: false
