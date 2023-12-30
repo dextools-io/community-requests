@@ -59,8 +59,8 @@ body:
     attributes:
       label: is EVM?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: markdown
