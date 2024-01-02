@@ -80,7 +80,9 @@ body:
     id: additional
     attributes:
       label: Additional Info
-      description: Anything you want to add about the bug you are encountering
+      description: |
+        Anything you want to add about the bug you are encountering
+      
         Tip: You can also add images bu clicking here and the dragging files in! 
     validations:
       required: false
