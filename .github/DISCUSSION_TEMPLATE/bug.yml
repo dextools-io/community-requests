@@ -10,9 +10,11 @@ body:
     attributes:
       label: Steps
       description: Steps to reproduce the bug (P.E. Go to... Click on... Scroll down to... Check error...)
+      value: |
+        ...
+      render: bash
     validations:
       required: true
-    render: bash
   - type: checkboxes
     id: device
     attributes:
@@ -83,8 +85,9 @@ body:
       description: |
         Anything you want to add about the bug you are encountering
       
-        Tip: You can also add images bu clicking here and the dragging files in! 
+        Tip: You can also add images bu clicking here and the dragging files in!
+      value: |
+        ...  
+      render: bash
     validations:
-      required: false
-    render: bash
-      
+      required: false      
