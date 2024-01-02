@@ -23,8 +23,5 @@ body:
         Anything you want to add about the new feature can be added here!
       
         Tip: You can also add images of your idea by clicking here and the dragging files in!
-      value: |
-        ...  
-      render: bash
     validations:
       required: true
