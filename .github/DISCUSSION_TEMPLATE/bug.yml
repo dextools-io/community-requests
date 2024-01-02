@@ -26,6 +26,7 @@ body:
       - label: Desktop Linux
       - label: Mobile browser
       - label: App
+    validations:
       required: true
   - type: dropdown
     id: browsers
@@ -57,6 +58,8 @@ body:
         - iOS
         - Android
         - Other
+    validations:
+      required: false
   - type: input
     id: device-type
     attributes:
@@ -90,4 +93,4 @@ body:
         ...  
       render: bash
     validations:
-      required: false      
+      required: false
