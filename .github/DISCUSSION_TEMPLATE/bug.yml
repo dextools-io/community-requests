@@ -89,8 +89,5 @@ body:
         Anything you want to add about the bug you are encountering
       
         Tip: You can also add images by clicking here and the dragging files in!
-      value: |
-        ...  
-      render: bash
     validations:
       required: false
