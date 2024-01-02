@@ -63,14 +63,14 @@ body:
   - type: input
     id: device-type
     attributes:
-      label: Which mobile devices are you using?
+      label: (if aplicable) Which mobile devices are you using?
       description: P.E iPhone14, Google Pixel 5, Motorola Razr...
     validations:
       required: false
   - type: input
     id: device-version
     attributes:
-      label: Which version of the device OS are you running?
+      label: (if aplicable) Which version of the device OS are you running?
       description: P.E. iOS13, Android9...
     validations:
       required: false
