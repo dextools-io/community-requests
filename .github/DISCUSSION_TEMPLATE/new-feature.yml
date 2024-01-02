@@ -1,0 +1,30 @@
+title: "New Feature"
+labels: ["Request a Feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Request a Feature on Dextools
+  - type: textarea
+    id: general-info
+    attributes:
+      label: What will you like to see on Dextools?
+      description: Write your suggestion or idea right here!
+      value: |
+        ...
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Why is this a good adding to Dextools?
+      description: |
+        Anything you want to add about the new feature can be added here!
+      
+        Tip: You can also add images of your idea by clicking here and the dragging files in!
+      value: |
+        ...  
+      render: bash
+    validations:
+      required: true
