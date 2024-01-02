@@ -81,7 +81,7 @@ body:
     attributes:
       label: Additional Info
       description: Anything you want to add about the bug you are encountering
-        tip: You can also add images bu clicking here and the dragging files in! 
+        Tip: You can also add images bu clicking here and the dragging files in! 
     validations:
       required: false
     render: bash
