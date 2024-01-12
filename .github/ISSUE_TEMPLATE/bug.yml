@@ -1,4 +1,5 @@
-name: Bug report
+name: Bug
+description: Bug report:
 title: "[Bug]"
 labels: bug
 assignees: Sanher
