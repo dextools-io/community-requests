@@ -11,5 +11,5 @@ jobs:
       - name: Find possible duplicates
         uses: Namchee/dupliket@<1.0.0>
         with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
-          api_key: ${{ secrets.API_KEY }}
+          access_token: ${{ secrets.GH_TOKEN }}
+          api_key: ${{ secrets.oAI_KEY }}
