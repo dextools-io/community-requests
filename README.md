@@ -8,8 +8,8 @@ Community users can open and participate in dicussions in order to request:
 - Blockchains integrations
 - DEX integrations
 - Bugs reports
-- Provide feedback.
+- Provide feedback
   
 Discussions are moderated by DEXTools Community Managers. 
 
-They will open tasks (issues) directly or from existing discussions after assessment and agreement to work on them.
+Task will be opened from existing discussions after assessment and agreement to work on them.
