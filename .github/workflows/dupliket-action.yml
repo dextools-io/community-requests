@@ -1,0 +1,15 @@
+on:
+  issues:
+    types: [opened]
+  discussion:
+    types: [created]  
+
+jobs:
+  dupliket:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Find possible duplicates
+        uses: Namchee/dupliket@<1.0.0>
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          api_key: ${{ secrets.API_KEY }}
