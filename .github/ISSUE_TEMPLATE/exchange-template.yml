@@ -1,0 +1,88 @@
+name: Exchange
+description: Request new exchange integration
+title: "[Exchange]"
+labels: exchange
+assignees: Sanher
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Exchange relevant info
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Exchange name
+    validations:
+      required: true
+  - type: input
+    id: blockchain
+    attributes:
+      label: Blockchain
+      description: Blockchain to which it belongs
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: Exchange main website url
+    validations:
+      required: true
+  - type: input
+    id: logo
+    attributes:
+      label: Logo
+      description: Exchange logo/icon url
+    validations:
+      required: true
+  - type: input
+    id: swap
+    attributes:
+      label: Swap url
+      description: Exchange swap url
+    validations:
+      required: true
+  - type: input
+    id: factory
+    attributes:
+      label: Factory contract address
+      description: Exchange factory contract address
+    validations:
+      required: true
+  - type: input
+    id: router
+    attributes:
+      label: Router contract address
+      description: Exchange router contract address
+    validations:
+      required: false
+  - type: textarea
+    id: contact
+    attributes:
+      label: Exchange contact info
+      description: "A clear list of all relevant contact ways."
+      value: |
+        1 - email
+        2 - telegram
+        3 - discord
+        4 - reddit
+        ...
+      render: bash
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        ## Other info
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Exchange other relevant info
+      description: "Add any other context or info about the exchange request here."
+      value: |
+        ...
+      render: bash
+    validations:
+      required: false
