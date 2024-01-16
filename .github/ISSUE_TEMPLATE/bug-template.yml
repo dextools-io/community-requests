@@ -16,7 +16,6 @@ body:
       description: Steps to reproduce the bug (P.E. Go to... Click on... Scroll down to... Check error...)
       value: |
         ...
-      render: bash
     validations:
       required: true
   - type: checkboxes
