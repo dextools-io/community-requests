@@ -13,3 +13,4 @@ jobs:
         with:
           access_token: ${{ secrets.GH_TOKEN }}
           api_key: ${{ secrets.oAI_TOKEN }}
+          label: duplicated
