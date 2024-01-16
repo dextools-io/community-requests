@@ -16,7 +16,6 @@ body:
       description: Write your suggestion or idea right here!
       value: |
         ...
-      render: bash
     validations:
       required: true
   - type: textarea
