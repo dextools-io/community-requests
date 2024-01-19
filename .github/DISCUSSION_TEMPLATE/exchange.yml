@@ -1,5 +1,5 @@
-title: "[Exchange]"
-labels: ["blockchain request"]
+title: "[EXCHANGE]"
+labels: ["exchange request"]
 body:
   - type: markdown
     attributes:
