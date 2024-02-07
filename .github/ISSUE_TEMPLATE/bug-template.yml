@@ -24,6 +24,7 @@ body:
       label: Which device are you using
       description: Please select the device in which you found a bug
       options:
+      - label: Any
       - label: Desktop Windows
       - label: Desktop MacOS
       - label: Desktop Linux
