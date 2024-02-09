@@ -15,8 +15,6 @@ jobs:
     name: Deploy Production
     if: startsWith(github.ref, 'refs/tags/v')
     runs-on: [ self-hosted, Linux ]
-    environment:
-      name: Production
     env:
       CONTAINER_NAME: ${{ vars.DOCKER_CONTAINER_NAME }}
     permissions:
