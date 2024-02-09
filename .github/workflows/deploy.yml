@@ -11,7 +11,6 @@ env:
 jobs:
   deploy-production:
     name: Deploy Production
-    if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     environment:
       name: Production
