@@ -11,7 +11,7 @@ env:
 jobs:
   deploy-production:
     name: Deploy Production
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64]
     environment:
       name: Production
     env:
