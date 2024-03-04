@@ -1,4 +1,4 @@
-title: "[BLOCKCHAIN]"
+title: "[Phoenix]"
 labels: ["blockchain request"]
 body:
   - type: markdown
@@ -7,56 +7,56 @@ body:
         ## Blockchain relevant info
   - type: input
     id: name
-    attributes:
+    attributes: Phoenix
       label: Name
       description: Blockchain name
     validations:
       required: true
   - type: input
     id: tvl
-    attributes:
+    attributes: $140,000.00
       label: TVL
       description: Blockchain Total Value Locked
     validations:
       required: true
   - type: input
     id: web
-    attributes:
+    attributes: https://phoenixblockchain.org
       label: Website
       description: Blockchain website url
     validations:
       required: true
   - type: input
     id: blockchain-id
-    attributes:
+    attributes: 13381
       label: Id
       description: id number in evm case / slug in no evm case
     validations:
       required: true
   - type: input
     id: token
-    attributes:
+    attributes: Phoenix/PHX
       label: Token
       description: Native token Name/Symbol
     validations:
       required: true
   - type: input
     id: block-explorer
-    attributes:
+    attributes: https://phoenixplorer.com/
       label: Block Explorer
       description: "Block explorer url"
     validations:
       required: true
   - type: input
     id: exchange
-    attributes:
+    attributes: https://xeggex.com/market/PHX_USDT
       label: Main exchange
       description: Main exchange info (url/name)
     validations:
       required: true
   - type: dropdown
     id: evm
-    attributes:
+    attributes: Yes
       label: is EVM?
       options:
         - "Yes"
@@ -69,7 +69,7 @@ body:
         ## Other info
   - type: textarea
     id: relevant-exchanges
-    attributes:
+    attributes: https://xeggex.com/market/PHX_USDT (4 pairs ETH,BTC,USDT,USDC), https://latoken.com/exchange/PHX_USDT, https://nonkyc.io/market/PHX_BNB (2 Pairs USDT & BNB), https://financex.trade/trading/phxusdc (2 Pairs USDT & USDC), https://dex-trade.com/spot/trading/PHXUSDT
       label: Blockchain other relevant exchanges
       description: "A clear list of relevant exchanges with link and concise description of them."
       value: |
@@ -79,7 +79,7 @@ body:
       required: false
   - type: textarea
     id: relevant-info
-    attributes:
+    attributes: The Phoenix Blockchain is an entire ecosystem powered by a community of crypto enthusiasts. What started as two projects combining efforts has now grown into a team of over 50 people who are committed to revolutionizing the crypto world.
       label: Blockchain other relevant info
       description: "A clear and concise description of blockchain (if it's needed)."
       value: |
@@ -99,7 +99,7 @@ body:
       required: false
   - type: textarea
     id: additional-info
-    attributes:
+    attributes: https://rpc.phoenixplorer.com
       label: Blockchain other relevant info
       description: "Add any other context or info about the blockchain request here."
       value: |
